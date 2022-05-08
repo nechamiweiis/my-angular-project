@@ -1,0 +1,8 @@
+<h2>New Product</h2>
+<form (ngSubmit)="addStudent($event)" *ngIf="newStudent">
+    <!-- ngModel - קישור דו כיווני בין משתנה הקומפוננטה לבין פקד קלט, כל שינוי בפקד ישפיע על המשתנה, ושינוי במשתנה ישפיע על הפקד -->
+    <!-- בשביל להשתמש במאפיין זה חובה להוסיף למודול הראשי את המודול FormsModule -->
+    <input type="text" placeholder="student name" [(ngModel)]="newStudent.name" name="name" />
+    <input type="text" placeholder="student address" name="address" [(ngModel)]="newStudent.address" name="address"/>
+    <button type="submit" >Add</button>
+</form>

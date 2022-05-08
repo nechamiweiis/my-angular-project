@@ -1,0 +1,39 @@
+import { student } from '../interfaces/student';
+
+export const students : student[] = [
+    {
+        code:1,
+        name:'Gila',
+        address:'1Street',
+    },
+    {
+        code:2,
+        name:'Rina',
+        address:'2Street',
+    },
+    {
+        code:3,
+        name:'Ditza',
+        address:'3Street',
+    },
+    {
+        code:4,
+        name:'Chedva',
+        address:'4Street',
+    },
+    {
+        code:5,
+        name:'Ahuva',
+        address:'5Street',
+    },
+    {
+        code:6,
+        name:'Ayala',
+        address:'6Street',
+    },
+    {
+        code:7,
+        name:'Michal',
+        address:'7Street',
+    },
+]

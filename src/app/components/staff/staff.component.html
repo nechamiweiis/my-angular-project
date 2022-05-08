@@ -1,0 +1,6 @@
+<ul>
+  <li *ngFor="let s of staff" [id]="s.code"> <a [routerLink]="''+s.code" [innerHTML]="s.name" routerLinkActive="active"></a> </li>
+</ul>
+
+<router-outlet></router-outlet>
+

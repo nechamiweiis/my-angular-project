@@ -1,0 +1,7 @@
+<h2>update details</h2>
+<form (ngSubmit)="updateDetails($event)"*ngIf="updatedStaff">
+    <input type="text" placeholder="staff name" [(ngModel)]="updatedStaff.name" name="name" />
+    <input type="text" placeholder="staff address" name="address" [(ngModel)]="updatedStaff.address" name="address"/>
+    <button type="submit" >update</button>
+</form>
+
